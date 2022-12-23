@@ -1,0 +1,1080 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho: */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,
+.menu {
+    padding: 15px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.menu-item {
+    width: 30px;
+    margin-bottom: 5px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+/* Banner: */
+
+.banner {
+    background-image: url('../taxi/img/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+}
+
+.banner-body {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.banner-titulo {
+    color: #f7c119;
+    font-weight: bold;
+    padding-top: 70px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.banner-subtitulo {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 92px;
+}
+
+/* Best in City: */
+
+.area1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.area1-fundo {
+    background-color: #f7c119;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.area1-fundo img {
+    width: 800px;
+    margin-top: -270px;
+    margin-left: 10px;
+}
+
+.area1-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 70px;
+    margin-bottom: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    color: #000;
+}
+
+.area1-text {
+    text-align: left;
+}
+
+.area1-text-subtitulo,
+.area1-text-titulo {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.area1-text-titulo {
+    font-size: 30px;
+}
+
+.area1-text-desc {
+    font-size: 21px;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+
+.area1-text a {
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.4;
+    width: 125px;
+    height: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.area1-text a:hover {
+    color: #FFF;
+}
+
+.area1-form {
+    height: 400px;
+    width: 510px;
+    background-color: #000;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: start;
+    padding: 20px;
+    box-shadow: 0 0px 40px 0 rgb(0 0 0 / 40%);
+}
+
+.area1-form input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    margin-top: 15px;
+}
+
+#area1-form-desc {
+    height: 140px;
+    max-height: 140px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    margin-top: 15px;
+}
+
+.area1-form a {
+    margin-top: 10px;
+    background-color: #FFF;
+    color: #000;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.4;
+    width: 125px;
+    height: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Apps: */
+
+.area2 {
+    height: 115px;
+    width: 100%;
+    background-color: #4d4d4d;
+}
+
+.area2-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.area2-body-left {
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.area-text {
+    color: #FFF;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.area2-body-left img {
+    width: 70px;
+}
+
+.area2-body-right {
+    display: flex;
+    margin-right: 110px;
+    text-align: end;
+    margin: auto;
+}
+
+.area2-body-right img {
+    width: 135px;
+    margin-right: 15px;
+}
+
+/* How Does It Work */
+
+.area3-body {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.area3-body-titulo {
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.area3-body-itens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.area3-body-item-left img {
+    width: 120px;
+    padding-bottom: 38px;
+}
+
+.area3-body-item-center img {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.area3-body-item-right img {
+    width: 80px;
+    padding-bottom: 25px;
+}
+
+.area3-body-iten-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.area3-body-item-center,
+.area3-body-item-right,
+.area3-body-item-left {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* We do the best: */
+
+.area4 {
+    background-image: url('../taxi/img/banner.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.area4-fundo {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.area4-subtitulo {
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.area4-titulo {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.area4-text {
+    padding-top: 20px;
+    font-size: 19px;
+    word-spacing: 1.5px;
+}
+
+.area4-items {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-align: start;
+}
+
+.area4-item {
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.icone {
+    background-color: #f7c119;
+    color: #000;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+
+.area4-item-titulo {
+    font-weight: bold;
+    color: #f7c119;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+
+.area4-item-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.area4-item-text {
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 95px;
+}
+
+
+.area4-item-text-right {
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 95px;
+}
+
+.area4-item img {
+    width: 80px;
+}
+
+.area4-item-right img {
+    width: 80px;
+}
+
+/* Tipos de Taxi: */
+
+.area5-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.area5-body-item {
+    text-align: center;
+    justify-content: center;
+}
+
+.area5-body-item-titulo {
+    font-weight: bold;
+}
+
+.area5-body-item img {
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+
+.img-taxi {
+    margin-left: 20px;
+}
+
+.area5-body-item-titulo-lista {
+    font-weight: bold;
+}
+
+.area5-body-item-titulo-lista-desc-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 115px;
+    line-height: 1.8;
+}
+
+.area5-body-item-titulo-lista-desc-center {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 105px;
+    line-height: 1.8;
+}
+
+.area5-body-item-titulo-lista-desc-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 65px;
+    line-height: 1.8;
+}
+
+/* Happy Clients: */
+
+.area6 {
+    background-image: url('../taxi/img/banner2.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.area6-fundo {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+}
+
+.area6-subtitulo {
+    font-weight: bold;
+    color: #FFF;
+    padding-bottom: 20px;
+}
+
+.area6-titulo {
+    font-weight: bold;
+    color: #FFF;
+    padding-bottom: 125px;
+}
+
+.area6-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.area6-body-left-img img,
+.area6-body-right-img img {
+    width: 70px;
+    border-radius: 50px;
+    margin: 50px;
+    margin-top: 0px;
+    margin-right: 25px;
+}
+
+.area6-body-left,
+.area6-body-right {
+    display: flex;
+}
+
+.area6-body-right p,
+.area6-body-left p {
+    color: #FFF;
+    font-style: italic;
+    font-size: 20px;
+    text-align: start;
+}
+
+.area6-name-1 {
+    color: #f7c119;
+    font-weight: bold;
+    position: absolute;
+    bottom: -3470px;
+    left: 300px;
+}
+
+.area6-name-2 {
+    color: #f7c119;
+    font-weight: bold;
+    position: absolute;
+    bottom: -3470px;
+    right: 460px;
+}
+
+
+/* Atendimento: */
+
+.area7 {
+    background-color: #f7c119;
+    width: 100%;
+    height: 100%;
+}
+
+.area7 .container {
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.subtitulo-area7 {
+    font-weight: bold;
+    letter-spacing: 1.3;
+    color: #000;
+    font-size: 33px;
+}
+
+.titulo-area7 {
+    font-weight: bold;
+    letter-spacing: 1.3;
+    color: #000;
+    font-size: 70px;
+    padding-top: 10px;
+}
+
+/* Rodapé: */
+
+.rodape {
+    background-color: #1a1a1a;
+    height: 100%;
+}
+
+.rodape .container {
+    text-align: center;
+}
+
+.rodape-titulo {
+    font-weight: bold;
+    padding-top: 70px;
+    color: #FFF;
+    padding-bottom: 70px;
+}
+
+.rodape-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 30px;
+    border-bottom: 1px solid #808080;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.rodape-body-left,
+.rodape-body-right {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rodape-body-right-titulo,
+.rodape-body-left-titulo {
+    color: #FFF;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.rodape-body-right-text,
+.rodape-body-left-text {
+    color: #808080;
+    font-weight: 400;
+    line-height: 1.6;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.roadape-socials {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.rodape-social {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.rodape-creditos {
+    padding-bottom: 20px;
+}
+
+.rodape-creditos h5 {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #f7c119;
+}
+
+/* Responsividade: */
+
+@media (max-width:450px) {
+
+    /* Cabeçalho: */
+
+    .logo img {
+        width: 150px;
+    }
+
+    /* Banner: */
+
+    .banner-subtitulo {
+        color: #FFF;
+        font-weight: 700;
+        font-size: 60px;
+        padding-top: 30px;
+    }
+
+    .area1-fundo img {
+        width: 400px;
+        margin-top: -120px;
+        margin-left: 10px;
+    }
+
+    /* Best in City: */
+
+    .area1-body {
+        display: block;
+        margin-top: 70px;
+        margin-bottom: 90px;
+        padding: 20px;
+    }
+
+    .area1-form {
+        height: 400px;
+        width: 350px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .area2-body {
+        display: block;
+    }
+
+    .area2-body-left {
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .area2-body-left .area-text {
+        padding-top: 10px;
+        margin-left: 0px;
+        font-size: 24px;
+    }
+
+    .area2-body-right {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .area2-body-right img {
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+
+    .area2 {
+        height: 100%;
+    }
+
+    /* How Does It Work: */
+
+    .area3-body-itens {
+        display: block;
+    }
+
+    .area3-body-item-center,
+    .area3-body-item-right {
+        padding-top: 70px;
+    }
+
+    /* We do the best: */
+
+    .area4-items {
+        margin-top: 80px;
+        display: block;
+        text-align: start;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    .area4-item-text,
+    .area4-item-text-right {
+        margin-left: 0px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .area4-item {
+        margin-right: 0px;
+    }
+
+    /* Tipos de Taxi: */
+
+    .area5-body {
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .area5-body-item-titulo {
+        padding-top: 50px;
+    }
+
+    .area5-body-item-titulo-lista-desc-left,
+    .area5-body-item-titulo-lista-desc-center,
+    .area5-body-item-titulo-lista-desc-right {
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    /* Happy Clients: */
+
+    .area6-body {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .area6-body-right {
+        padding-top: 20px;
+    }
+
+    .area6-body-left,
+    .area6-body-right {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .area6-name-1 {
+        color: #f7c119;
+        font-weight: bold;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        margin-right: 130px;
+        padding-bottom: 30px;
+    }
+
+    .area6-name-2 {
+        color: #f7c119;
+        font-weight: bold;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        margin-right: 130px;
+    }
+
+    /* Atendimento: */
+
+    .area7 .container {
+        text-align: center;
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+
+
+    .subtitulo-area7 {
+        font-weight: bold;
+        letter-spacing: 1.3;
+        color: #000;
+        font-size: 18px;
+    }
+
+    .titulo-area7 {
+        font-weight: bold;
+        letter-spacing: 1.3;
+        color: #000;
+        font-size: 38px;
+        padding-top: 10px;
+    }
+
+    /* Rodapé: */
+
+    .rodape-body {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #808080;
+    }
+
+    .rodape-body-left,
+    .rodape-body-right {
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .rodape-body-right-titulo {
+        padding-top: 30px;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+
+
+    /* Cabeçalho: */
+
+    .logo img {
+        width: 150px;
+    }
+
+    /* Banner: */
+
+    .banner-subtitulo {
+        color: #FFF;
+        font-weight: 700;
+        font-size: 90px;
+        padding-top: 30px;
+    }
+
+    .area1-fundo img {
+        width: 650px;
+        margin-top: -200px;
+        margin-left: 10px;
+    }
+
+    /* Best in City: */
+
+    .area1-body {
+        display: block;
+        margin-top: 70px;
+        margin-bottom: 90px;
+        padding: 20px;
+    }
+
+    .area1-form {
+        height: 400px;
+        width: 700px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .area2-body {
+        display: block;
+    }
+
+    .area2-body-left {
+        margin-left: 0px;
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .area2-body-left .area-text {
+        padding-top: 10px;
+        margin-left: 0px;
+        font-size: 24px;
+    }
+
+    .area2-body-right {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .area2-body-right img {
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+
+    .area2 {
+        height: 100%;
+    }
+
+    /* How Does It Work: */
+
+    .area3-body-itens {
+        display: block;
+    }
+
+    .area3-body-item-center,
+    .area3-body-item-right {
+        padding-top: 70px;
+    }
+
+    /* We do the best: */
+
+    .area4-text {
+        padding-bottom: 30px;
+    }
+
+    .area4-items {
+        margin-top: 80px;
+        display: block;
+        text-align: start;
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    .area4-item-text,
+    .area4-item-text-right {
+        margin-left: 0px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .area4-item {
+        margin-right: 0px;
+    }
+
+    /* Tipos de Taxi: */
+
+    .area5-body {
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .area5-body-item-titulo {
+        padding-top: 50px;
+    }
+
+    .area5-body-item-titulo-lista-desc-left,
+    .area5-body-item-titulo-lista-desc-center,
+    .area5-body-item-titulo-lista-desc-right {
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    /* Happy Clients: */
+
+    .area6-body {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .area6-body-right {
+        padding-top: 20px;
+    }
+
+    .area6-body-left,
+    .area6-body-right {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .area6-name-1 {
+        color: #f7c119;
+        font-weight: bold;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        margin-right: -10px;
+        padding-bottom: 30px;
+    }
+
+    .area6-name-2 {
+        color: #f7c119;
+        font-weight: bold;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        margin-right: -10px;
+    }
+
+    .area6-body-left-text,
+    .area6-body-right-text {
+        padding-bottom: 30px;
+    }
+
+    /* Atendimento: */
+
+    .area7 .container {
+        text-align: center;
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+
+
+    .subtitulo-area7 {
+        font-weight: bold;
+        letter-spacing: 1.3;
+        color: #000;
+        font-size: 18px;
+    }
+
+    .titulo-area7 {
+        font-weight: bold;
+        letter-spacing: 1.3;
+        color: #000;
+        font-size: 38px;
+        padding-top: 10px;
+    }
+
+    /* Rodapé: */
+
+    .rodape-body {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #808080;
+    }
+
+    .rodape-body-left,
+    .rodape-body-right {
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .rodape-body-right-titulo {
+        padding-top: 30px;
+    }
+
+}
+
+@media (max-width: 1023px) {
+
+    .area6-name-1 {
+        color: #f7c119;
+        font-weight: bold;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        margin-right: -10px;
+        padding-bottom: 30px;
+    }
+
+    .area6-name-2 {
+        background-color: red;
+        font-weight: bold;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        margin-right: -10px;
+    }
+} 
